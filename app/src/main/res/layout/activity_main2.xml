@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="205dp"
+        android:layout_height="64dp"
+        android:baselineAligned="false"
+        android:hint="valor a"
+
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="204dp"
+        android:layout_height="60dp"
+        android:baselineAligned="false"
+
+        android:hint="Valor b" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationY="-4"
+        android:text="calcular" />
+
+
+
+</LinearLayout>
