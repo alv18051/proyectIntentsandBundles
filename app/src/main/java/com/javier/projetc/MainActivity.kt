@@ -15,10 +15,6 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener{
             val intent: Intent = Intent( this, activity_main2 :: class.java )
             intent.putExtra("valor", "suma")
-            //intent.putExtra("valor2", "suma")
-            //intent.putExtra("valor3","suma")
-            //startActivity(intent)
-            //finish()
 
             startActivityForResult(intent, 1)
             
@@ -27,10 +23,7 @@ class MainActivity : AppCompatActivity() {
         button3.setOnClickListener{
             val intent: Intent = Intent( this, activity_main2 :: class.java )
             intent.putExtra("valor3", "resta")
-            //intent.putExtra("valor2", "suma")
-            //intent.putExtra("valor3","suma")
-            //startActivity(intent)
-            //finish()
+
 
             startActivityForResult(intent, 1)
 
@@ -38,10 +31,7 @@ class MainActivity : AppCompatActivity() {
         button4.setOnClickListener{
             val intent: Intent = Intent( this, activity_main2 :: class.java )
             intent.putExtra("valor4", "multiplicacion")
-            //intent.putExtra("valor2", "suma")
-            //intent.putExtra("valor3","suma")
-            //startActivity(intent)
-            //finish()
+
 
             startActivityForResult(intent, 1)
 
@@ -49,10 +39,7 @@ class MainActivity : AppCompatActivity() {
         button5.setOnClickListener{
             val intent: Intent = Intent( this, activity_main2 :: class.java )
             intent.putExtra("valor5", "division")
-            //intent.putExtra("valor2", "suma")
-            //intent.putExtra("valor3","suma")
-            //startActivity(intent)
-            //finish()
+
 
             startActivityForResult(intent, 1)
 
@@ -74,5 +61,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+
     }
+
 }

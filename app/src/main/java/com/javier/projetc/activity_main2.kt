@@ -19,16 +19,6 @@ class activity_main2 : AppCompatActivity() {
         val bundle = intent.extras
 
 
-
-        /*val texto1 = findViewById<EditText>(R.id.text1)
-        val texto2 = findViewById<EditText>(R.id.text2)
-        var dato1 = texto1.text.toString().toInt()
-        var dato2 = texto2.text.toString().toInt()*/
-
-
-
-
-
         if (bundle != null ){
 
             if(intent.hasExtra("valor")){
@@ -99,14 +89,9 @@ class activity_main2 : AppCompatActivity() {
             }
 
 
-
-
         }
 
-
-
     }
-
 
 }
 
